@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family: "Cairo", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 50px;
+}
+
+.carousel-indicators {
+    padding-bottom: 10px;
+}
+
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    background-color: #fff !important;
+}
+
+.container .title {
+    width: 100px !important;
+    border-width: 4px !important;
+}
+
+.contact-section {
+    background-image: url(../imgs/contact.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 40px;
+}
+
+.container .title-2 {
+    width: 135px !important;
+    border-width: 4px !important;
+}
+
+.texty {
+    position: relative;
+    width: fit-content;
+    padding-bottom: 5px;
+}
+
+.texty::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: red;
+}
